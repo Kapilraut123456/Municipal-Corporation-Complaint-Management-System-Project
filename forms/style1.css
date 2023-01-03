@@ -1,0 +1,247 @@
+.background {
+    background-image: url(assete/img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  nav .container-fluid {
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    background-color: #ffffff;
+  }
+  .nav-item a {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  .nav-item a:hover {
+    color: red;
+  }
+  .sty {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
+    background-color: rgb(195, 195, 195, 0.5);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+  
+  }
+  .sty:hover{
+    transform: scale(1.1);
+  }
+  .col-4 a{
+    text-decoration: none;
+  }
+  .sty1{
+    text-align: left;
+  }
+  .sty1 a{
+   color: black;
+   text-decoration: none;
+
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 60px;
+  }
+  .navbar-brand {
+    font-weight: bold;
+  }
+  .Img {
+    margin-top: 60px;
+  }
+  
+  
+  /*social media font */
+  
+  .fa {
+    padding: 10px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 10px;
+  }
+  .fa-facebook {
+    background: #3b5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55acee;
+    color: white;
+  }
+  .fa-instagram {
+    background: #f73131;
+    color: white;
+  }
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  .fa:hover {
+    color: white;
+    opacity: 0.9;
+  }
+  .box .modelImg{
+      width: 400px;
+  
+  }
+  .box .modelImg:hover{
+    transform: scale(1.1);
+    z-index: 3;
+  }
+  
+  
+.attribute {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(assete/img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 400px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+}
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 15px;
+}
+.con {
+  background-color: #04aa6d;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+  border-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(0, 0, 0, 0.6);
+  outline: 0 none;
+}
+
+/* DASHBOARD*/
+.bg{
+  background-color: rgba(87, 71, 71, 0.5);
+}
+.bg1{
+  background-color:transparent;
+}
+.dash{
+  background-color: rgb(107, 102, 102);
+  color: rgb(255, 255, 255);
+  height: 100vh ;
+  text-align: center;
+  font-family:serif;
+}
+
+.b1{
+ border: 1px solid black ;
+ background-color: #5c5c5c ;
+ border-radius: 10px;
+}
+.b1 a{
+  color: white;
+  text-decoration: none;
+}
+
+.b1:hover{
+  transition: 0.20s ease-in-out;
+  background-color: #393535;
+    transform: scale(1.1);
+  /* color: #216160; */
+}
+
+.dash1{
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  background-color:#393535;
+  color: white;
+  font-size: 23px; 
+ font-family: serif;
+  text-align: center;  
+  }
+  .dash1 a{
+    color: white;
+    text-decoration: none;
+  }
+  
+.dash2{
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  padding: 90px;
+  text-align: center;
+  background-color:#393535;
+  font-size: 23px; 
+  font-family: serif;
+  }
+.dash2:hover{
+  transition: 0.20s ease-in-out;
+  transform: scale(1.1);
+  }
+  .dash2 a{
+    color: white;
+  }
+
